@@ -43,5 +43,6 @@ let firstName = 'Pauline';
 let lastName = "Oraro";
 let age = 22;
 let country = "Kenya";
+let city = "Nairobi";
 let isMarried = false;
-console.log(firstName, lastName, age, country, isMarried);
+console.log(firstName, lastName, age, country, city, isMarried);
