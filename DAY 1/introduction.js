@@ -2,7 +2,7 @@ console.log("Hello World!", "Happy 2024!");
 console.log("Welcome to 30 days of Javascript!");
 
 
-
+//Welcome to 30 days of Javascript
 //comments make the code more readable
 
 //This is a single line comment
@@ -10,6 +10,9 @@ console.log("Welcome to 30 days of Javascript!");
 /* this is a multiline comment
     multiline comments can take multiple lines
 */ 
+/* comments can make code reusable
+    easy to reuse and informative */
+
 
 //intro to data types
 //numbers
@@ -38,6 +41,7 @@ console.log(myValue);
 let emptyValue = null;
 console.log(emptyValue);
 
+
 //variables
 let firstName = 'Pauline';
 let lastName = "Oraro";
@@ -45,4 +49,10 @@ let age = 22;
 let country = "Kenya";
 let city = "Nairobi";
 let isMarried = false;
+let occupation;
 console.log(firstName, lastName, age, country, city, isMarried);
+//checks the type of data type used
+console.log(typeof(firstName));
+console.log(typeof(age));
+console.log(typeof(isMarried));
+console.log(typeof(occupation));
