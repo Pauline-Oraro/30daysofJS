@@ -1,0 +1,52 @@
+
+
+{
+    "users":[
+        {
+            "firstName":"Malia",
+            "lastName":"Katelynn",
+            "age":25,
+            "occupation":"Fashion designer",
+            "skills":[
+                "Drawing skills",
+                "Creativity skills",
+                "Marketing skills"
+            ]
+        },
+        {
+            "firstName":"Melanie",
+            "lastName":"Nolan",
+            "age":24,
+            "occupation":"Interior designer",
+            "skills":[
+                "Budgeting skills",
+                "Creativity skills",
+                "Planning skills"
+            ]
+        },
+        {
+            "firstName":"Pauline",
+            "lastName":"Oraro",
+            "age":23,
+            "occupation":"UX/UI designer",
+            "skills":[
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        },
+        {
+            "firstName":"Gilbert",
+            "lastName":"Oraro",
+            "age":19,
+            "occupation":"Cybersecurity specialist",
+            "skills":[
+                "Python",
+                "Javascript",
+                "Rust"
+            ]
+        }
+    ]
+}
+
+
