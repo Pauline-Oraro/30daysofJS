@@ -106,3 +106,77 @@ console.log(countTwo);
 //post-decrement
 console.log(countTwo--);
 console.log(countTwo);
+
+
+let firstName = "Hailey";
+let lastName = "Freya";
+let country = "Finland";
+let city = "Helsinki";
+let age = 45;
+let married = true;
+console.log(firstName, lastName, country, city, age, married)
+console.log(typeof(firstName));
+console.log(typeof(lastName));
+console.log(typeof(country));
+console.log(typeof(city));
+console.log(typeof(age));
+console.log(typeof(married));
+
+console.log("10" == 10);
+console.log(parseInt("9.8") == 10);
+console.log(4 > 3);
+console.log(4 >= 3);
+console.log(4 < 3);
+console.log(4 <= 3);
+console.log(4 == 4);
+console.log(4 === 4);
+console.log(4 != 4);
+console.log(4 !== 4);
+console.log(4 != "4");
+console.log(4 == "4");
+console.log(4 === "4");
+console.log(4 > 3 && 10 < 12);
+console.log(4 > 3 && 10 > 12);
+console.log(4 > 3 || 10 < 12);
+console.log(4 > 3 || 10 > 12);
+console.log(!(4 > 3));
+console.log(!(4 < 3));
+console.log(!(false));
+console.log(!(4 > 3 && 10 < 12));
+console.log(!(4 > 3 && 10 > 12));
+console.log(!(4 === '4'));
+let p = "python";
+console.log(p.includes("on"));
+let year = new Date();
+console.log(year.getFullYear());
+let month = new Date();
+console.log(month.getMonth());
+let date = new Date();
+console.log(date.getDate());
+let day = new Date();
+console.log(day.getDay());
+let hours = new Date();
+console.log(hours.getHours());
+let minutes = new Date();
+console.log(minutes.getMinutes());
+
+let base = 10;
+let height = 20;
+let areaOfTriangle = 0.5 * base * height;
+console.log(areaOfTriangle);
+
+let a = 5;
+let b = 4;
+let c = 3;
+let perimeterOfTriangle = a + b + c;
+console.log(perimeterOfTriangle);
+
+let width= 10;
+let length = 10;
+let areaOfRectangle = length * width;
+let perimeterOfRectangle = (length + width) * 2;
+console.log(areaOfRectangle);
+console.log(perimeterOfRectangle);
+let r = 20;
+let circumference = 2 * Math.PI * r;
+console.log(circumference);
