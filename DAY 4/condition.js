@@ -54,3 +54,52 @@ let weather = "cloudy"
         default:
         console.log("No need for rain coat.")
     }
+
+
+
+let ageInput = document.getElementById("myAge");
+ageInput.addEventListener("input", function(e) {
+    let age = e.target.value
+    if (age > 18){
+        const newElement = document.createElement("p");
+        const newText = document.createTextNode("You are old enough to drive");
+        newElement.appendChild(newText);
+        document.body.appendChild(newElement);
+    } else {
+        const element = document.createElement("p");
+        const text = document.createTextNode("You are not old enough to drive");
+        element.appendChild(text);
+        document.body.appendChild(element);
+    }
+})
+
+
+let a = 4;
+let b = 3;
+if (a > b){
+    console.log("4 IS GREATER THAN 3");
+} else {
+    console.log("4 IS LESS THAN 3 WHICH IS NOT TRUE");
+}
+
+function grade(score){
+    if(score >= 80 && score <= 100){
+        return "A"
+    } else if(score >= 70 && score < 80){
+        return "B"
+    } else if(score >= 60 && score < 70){
+        return "C"
+    } else if(score >= 50 && score < 60){
+        return "D"
+    } else if(score >= 40 && score < 50){
+        return "F"
+    } else {
+        return "Invalid score"
+    }
+};
+
+console.log(grade(55));
+console.log(grade(95));
+console.log(grade(10));
+console.log(grade(65));
+console.log(grade(75));
