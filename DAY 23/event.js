@@ -22,5 +22,5 @@ function clickMe(){
 
 let double = document.getElementById("double");
 double.addEventListener("dblclick", function(){
-    double.style.backgroundColor = "hotpink"
+    double.style.backgroundColor = "hotpink";
 })
