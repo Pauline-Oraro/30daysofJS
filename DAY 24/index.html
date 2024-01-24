@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Mini Project One</title>
+</head>
+<body>
+    <h1>Calculate the weight of an object in a certain planet</h1>
+    <div class="container">
+        <input type="number" placeholder="Enter mass" id="mass">
+        <select id="planet">
+            <option value="select">SELECT PLANET</option>
+            <option value="mecury">MECURY</option>
+            <option value="venus">VENUS</option>
+            <option value="earth">EARTH</option>
+            <option value="mars">MARS</option>
+            <option value="jupiter">JUPITER</option>
+            <option value="saturn">SATURN</option>
+            <option value="uranus">URANUS</option>
+            <option value="neptune">NEPTUNE</option>
+        </select>
+        <button onclick="calculateWeight()">CALCULATE WEIGHT</button>
+    </div>
+    <p id="result"></p>
+    <script src="index.js"></script>
+</body>
+</html>
