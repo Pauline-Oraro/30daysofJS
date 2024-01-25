@@ -92,3 +92,52 @@ console.log(cities);
 //adding an item from the beginning
 cities.unshift("Eldoret");
 console.log(cities);
+
+
+
+const webTech = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+];
+console.log(webTech.length);
+console.log(webTech[0]);
+console.log(webTech[3]);
+const lastItem = webTech.length - 1
+console.log(webTech[lastItem]);
+
+const mixedDataTypes = [
+    "Pauline",
+    "Oraro",
+    23.9,
+    23,
+    true,
+    ["HTML", "CSS", "Javascript"]
+];
+console.log(mixedDataTypes.length);
+
+const companies = [
+    "Facebook", 
+    "Google", 
+    "Microsoft", 
+    "Apple", 
+    "IBM", 
+    "Oracle",
+    "Amazon"
+];
+console.log(companies);
+console.log(companies.length);
+console.log(companies[0]);
+console.log(companies[1]);
+console.log(companies[2]);
+console.log(companies[3]);
+console.log(companies[4]);
+console.log(companies[5]);
+console.log(companies[6]);
+
+let first = companies[0]
+console.log(first.toUpperCase());
