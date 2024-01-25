@@ -139,5 +139,7 @@ console.log(companies[4]);
 console.log(companies[5]);
 console.log(companies[6]);
 
-let first = companies[0]
-console.log(first.toUpperCase());
+
+let uppercase = companies.forEach((company) =>{
+    console.log(company.toUpperCase());
+})
