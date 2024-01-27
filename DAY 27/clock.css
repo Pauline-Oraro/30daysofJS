@@ -1,0 +1,12 @@
+body{
+    background-color: darkslategrey;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
